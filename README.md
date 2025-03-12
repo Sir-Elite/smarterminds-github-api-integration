@@ -2,21 +2,19 @@
 
 This project is a GitHub Explorer web application that allows users to search for and compare GitHub profiles, displaying repository information and AI-generated summaries. Below is an overview of the core technologies used:
 
----
-
 ## Technologies
 
 ### **Next.js**
-- **Description:** A React-based framework that enables server-side rendering, static site generation, and an optimized developer experience for building production-ready web applications.
+A `React`-based framework that enables server-side rendering, static site generation, and an optimized developer experience for building production-ready web applications.
 
 ### **Tailwind CSS**
-- **Description:** A utility-first CSS framework that provides a comprehensive set of classes to rapidly build custom designs without leaving your markup.
+A utility-first `CSS` framework that provides a comprehensive set of classes to rapidly build custom designs without leaving your markup.
 
 ### **TypeScript**
-- **Description:** A typed superset of JavaScript that adds static typing and powerful tooling, helping catch errors early and improve maintainability.
+A typed superset of `JavaScript` that adds static typing and powerful tooling, helping catch errors early and improve maintainability.
 
 ### **DaisyUI**
-- **Description:** A lightweight UI library built on top of Tailwind CSS. It offers pre-styled components and utility classes, speeding up the design process while maintaining a clean look.
+A lightweight UI library built on top of `Tailwind CSS`. It offers pre-styled components and utility classes, speeding up the design process while maintaining a clean look.
 
 ---
 
