@@ -55,8 +55,14 @@ export default async function CompareProfiles({ params }: { params: { username1:
           </th>
         </tr>
         <tr>
-          <th>Profile 1</th>
-          <th>Profile 2</th>
+          <th>
+            <h2 className="collapse-title font-semibold">Profile 1</h2>
+            <br />
+          </th>
+          <th>
+            <h2 className="collapse-title font-semibold">Profile 2</h2>
+            <br />
+          </th>
         </tr>
       </thead>
       <tbody>
@@ -67,8 +73,11 @@ export default async function CompareProfiles({ params }: { params: { username1:
               username={profile1.login} 
               bio={profile1.bio || "No bio available."} 
             />
-            <hr />
-            <h2><b>Repositories</b></h2>
+            <br />
+            <div className="collapse bg-base-100 border-base-300 border">
+                <h2 className="collapse-title font-semibold">Repositories</h2>
+            </div>
+            <br />
             <RepoList repos={repos1} />
           </td>
           <td>
@@ -77,8 +86,11 @@ export default async function CompareProfiles({ params }: { params: { username1:
               username={profile2.login} 
               bio={profile2.bio || "No bio available."} 
             />
-            <hr />
-            <h2><b>Repositories</b></h2>
+            <br />
+            <div className="collapse bg-base-100 border-base-300 border">
+                <h2 className="collapse-title font-semibold">Repositories</h2>
+            </div>
+            <br />
             <RepoList repos={repos2} />
           </td>
         </tr>
