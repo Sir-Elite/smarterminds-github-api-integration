@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@plugin "daisyui" {
+  themes: dracula, dark, business;
+}
 
 :root {
   --background: #ffffff;
